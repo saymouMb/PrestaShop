@@ -10,7 +10,7 @@ describe("The shopping cart", function () {
 function runScenario () {
   describe('Add product to cart as a guest', function () {
 
-    let cartSelector = '.js-cart';
+     let cartSelector = '.js-cart';
     let cartProductCountSelector = '.js-subtotal';
     let increaseProductQuantitySelector = '.js-increase-product-quantity';
     let decreaseProductQuantitySelector = '.js-decrease-product-quantity';
